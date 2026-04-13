@@ -189,7 +189,7 @@ import mongoose from "mongoose";
 
 // establish connection
 mongoose
-  .connect("mongodb+srv://YOUR_DB_USERNAME:YOUR_DB_PASSWORD@YOUR_CLUSTER_URL/TestDB")
+  .connect("mongodb+srv://asemalmuhtaseb_db_user:Px9mwCeSorfKUmYv@mongodb+srv://asemalmuhtaseb_db_user:<db_password>@cluster0.af9vsrh.mongodb.net/?appName=Cluster0/TestDB")
   .then(() => {
     console.log("✅ Connected to MongoDB");
   })
